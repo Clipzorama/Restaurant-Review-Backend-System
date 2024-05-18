@@ -50,7 +50,7 @@ The project is organized into the following packages:
 - **Repository Abstraction**: Simplified data access using repository interfaces.
 - **CRUD Operations**: Basic Create, Read, Update, Delete operations for all entities.
 - **Custom Queries**: Supports JPQL and native SQL queries for advanced data retrieval.
-- **Password Hashing**: The PasswordService class handles password hashing using the BCrypt library. This ensures that passwords are 	        	stored securely and can be validated safely.
+- **Password Hashing**: The PasswordService class handles password hashing using the BCrypt library. This ensures that passwords are stored securely and can be validated safely.
 
 ## Getting Started
 
@@ -80,6 +80,11 @@ spring.datasource.url=jdbc:mysql://localhost:3306/reviews
 spring.datasource.username=yourusername
 spring.datasource.password=yourpassword
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+## Import the Database tables
+
+- Inside the project folder, there is a folder named 'database' that contains SQL table definitions.
+- Import these tables into a SQL schema in MySQL Workbench.
 
 
 # Testing
